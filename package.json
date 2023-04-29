@@ -1,0 +1,22 @@
+{
+  "name": "vercel-geoip",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accudio/vercel-geoip.git"
+  },
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^28.2.0"
+  },
+  "dependencies": {
+    "@vercel/edge": "^0.3.4"
+  }
+}
