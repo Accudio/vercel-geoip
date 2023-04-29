@@ -2,6 +2,8 @@
 
 Returns Vercel's Geolocation headers back on requests for a simple GeoIP service without tracking.
 
+Demo at [accudio-geoip.vercel.app](https://accudio-geoip.vercel.app)
+
 Exposes:
 
 - `country` — [`x-vercel-ip-country`](https://vercel.com/docs/concepts/edge-network/headers#x-vercel-ip-country)
